@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*----*****---- << Shortcodes >> ----*****----*/
+	
+	/*----*****---- << Buttons >> ----*****----*/
+	
+	
+	
+	/*----*****---- << Lists >> ----*****----*/
+	
+
+	/*----*****---- << Blockquote >> ----*****----*/
+	
+	
+	/*----*****---- << Toggle & Accordion >> ----*****----*/
+	
+	
+	
+	
+	/*----*****---- << Horizontal Tabs >> ----*****----*/
+	
+	.tabs-container { float:left; width:100%; margin:0px 0px 20px; padding:0px; clear:both; }
+	ul.tabs-frame { float:left; margin:0px 0px 0px 2%; padding:0px; width:98%;  background: #666666;}
+	ul.tabs-frame li { float:left; display:inline; margin:0px 10px 0px 0px; padding:0px; }
+	ul.tabs-frame li a { border:1px solid #666666; border-top:3px solid #666666; border-bottom:0px; float:left; margin:0px; padding:0px 20px; background:#666666; text-align:center; font-size:14px; font-weight:bold; color:#fff; line-height:40px; }
+	ul.tabs-frame li a.current { background:#666666; color:#fff; border-bottom:0px; position:relative; z-index:1; }
+	
+	.tabs-frame-content { float:left; clear:both; width:90%; margin:-1px 0px 0px; padding:25px 5% 15px; border:1px; }	
+	
+	/*----*****---- << Vertical Tabs >> ----*****----*/
+	
+	.tabs-vertical-container { float:left; width:100%; margin:0px 0px 20px; padding:0px; clear:both; }
+	ul.tabs-vertical-frame { float:left; width:31%; margin:0px; padding:0px 13px 0px 0px; }
+	ul.tabs-vertical-frame li { float:left; display:block; margin:0px 0px 10px; padding:0px; width:100%; position:relative; }
+	ul.tabs-vertical-frame li a { display:block; border:1px solid #d9d9d9; margin:0px; padding:14px 20px; background:#ededed; font-size:14x; font-weight:bold; color:#333334; }
+	ul.tabs-vertical-frame li a.current { background:#ffffff; }
+	
+	ul.tabs-vertical-frame li.current a span { position:absolute; right:-6px; top:16px; background:url(images/vertical-tabs-active.png) no-repeat; width:7px; height:12px;  }
+	
+	.tabs-vertical-frame-content { background:#ffffff; border:1px solid #d9d9d9; float:left; width:58%; margin:-1px 0px 0px; padding:20px 4% 20px; }		
+	.tabs-vertical-frame-content h4 { text-transform:none; }
+	
+	
